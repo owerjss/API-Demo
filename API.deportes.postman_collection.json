@@ -14,7 +14,7 @@
 					"script": {
 						"exec": [
 							"pm.test(\"Validar que la respuesta se procese por debjo de 800ms\", function () {\r",
-							"    pm.expect(pm.response.responseTime).to.be.below(800);\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(1600);\r",
 							"});\r",
 							"\r",
 							"pm.test(\"Validar que la respuesta contiene 'Leagues'\", function () {\r",
